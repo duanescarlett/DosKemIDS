@@ -4,5 +4,10 @@
     <string name="app_name">DuaneKemarIDS</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="affirmation">        Whatever maybe said in praise of poverty,
+        the fact remains it is impossible to live
+        a truly complete and successful life unless
+        one is rich.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
