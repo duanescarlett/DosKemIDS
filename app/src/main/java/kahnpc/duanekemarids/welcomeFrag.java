@@ -9,8 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
-
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
@@ -20,6 +18,7 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  *
  */
+
 public class welcomeFrag extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -111,8 +110,8 @@ public class welcomeFrag extends Fragment {
         public void onFragmentInteraction(Uri uri);
     }
 
-    public void onActivityCreated(){
-        super.onActivityCreated(Bundle j);
+    public void onActivityCreated(Bundle savedInstanceState){
+        super.onActivityCreated(savedInstanceState);
     }
 
     @Override
